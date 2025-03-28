@@ -1,48 +1,52 @@
+Tentu! Berikut adalah kode HTML yang telah digabungkan dengan bagian testimoni yang kamu berikan, ditempatkan di antara bagian "Keunggulan Produk" dan "FAQ":
+
+```html
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Eco Green</title>
+   <title>EcoGreen</title>
    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
    <style>
       .navbar-custom {
-         background: linear-gradient(to right, #2E7D32, #66BB6A);
-         box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+          background: linear-gradient(to right, #2E7D32, #66BB6A);
+          box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
       }
 
       .navbar-brand {
-         font-weight: bold;
-         font-size: 1.5rem; 
-         color: #fff;
+          font-weight: bold;
+          font-size: 1.5rem; 
+          color: #fff;
       }
 
       .navbar-nav .nav-link {
-         color: white !important; 
-         font-weight: 500;
+          color: white !important; 
+          font-weight: 500;
       }
 
       .navbar-nav .nav-link:hover {
-         color: #c8e6c9 !important;
+          color: #c8e6c9 !important;
       }
 
       body {
-         background: linear-gradient(to right, #d4fc79, #96e6a1);
-         min-height: 100vh; 
-         font-family: Arial, sans-serif;
+          background: linear-gradient(to right, #d4fc79, #96e6a1);
+          min-height: 100vh; 
+          font-family: Arial, sans-serif;
       }
 
       .section {
-         background: rgba(255, 255, 255, 0.8);
-         padding: 20px;
-         border-radius: 10px;
-         box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+          background: rgba(255, 255, 255, 0.8);
+          padding: 20px;
+          border-radius: 10px;
+          box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
       }
+
       .testimonial-section {
-         background: rgba(255, 255, 255, 0.8);
-         padding: 40px;
-         border-radius: 10px;
-         box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+          background: rgba(255, 255, 255, 0.8);
+          padding: 40px;
+          border-radius: 10px;
+          box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
       }
    </style>
 </head>
@@ -56,16 +60,16 @@
          <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
                <li class="nav-item">
-                  <a class="nav-link active">Produk</a>
+                  <a class="nav-link active" href="#">Produk</a>
                </li>
                <li class="nav-item">
-                  <a class="nav-link" >Beranda</a>
+                  <a class="nav-link" href="#">Beranda</a>
                </li>
                <li class="nav-item">
-                  <a class="nav-link" >Layanan</a>
+                  <a class="nav-link" href="#">Layanan</a>
                </li>
                <li class="nav-item">
-                  <a class="nav-link btn btn-success text-white" href="login.html">Masuk</a>
+                  <a class="nav-link btn btn-success text-white" href="login.html">Login</a>
                </li>
             </ul>
          </div>
@@ -95,11 +99,11 @@
    <section class="container my-5">
       <div class="row align-items-center">
          <div class="col-md-6">
-            <img src="asset/logoeco-removebg-preview.png" class="img-fluid rounded shadow" alt="Tentang Eco Green">
+            <img src="asset/logoeco-removebg-preview.png" class="img-fluid rounded shadow" alt="Tentang WorldGreen">
          </div>
          <div class="col-md-6">
-            <    <h2 class="mb-3">Tentang Eco Green</h2>
-            <p>Eco Green adalah sebuah startup yang berfokus pada pengembangan produk yang ramah lingkungan untuk rumah tangga. Kami meyakini bahwa inovasi hijau dapat memberikan dampak positif bagi lingkungan dan masyarakat.</p>
+            <h2 class="mb-3">Tentang Eco Green</h2>
+            <p>Eco Green merupakan startup yang berfokus pada pengembangan produk ram ah lingkungan untuk rumah. Kami percaya bahwa inovasi hijau dapat memberikan dampak positif bagi lingkungan dan masyarakat.</p>
             <p>Dengan berbagai produk berkualitas tinggi, kami berkomitmen untuk menciptakan lingkungan yang lebih sehat dan berkelanjutan.</p>
             <a href="about.html" class="btn btn-success mt-3">Pelajari Lebih Lanjut</a>
          </div>
@@ -111,19 +115,63 @@
       <div class="row text-center">
          <div class="col-md-4">
             <h4>Ramah Lingkungan</h4>
-            <p>Produk kami terbuat dari bahan yang dapat didaur ulang dan tidak merusak lingkungan.</p>
+            <p>Produk kami menggunakan bahan yang dapat didaur ulang dan tidak merusak lingkungan.</p>
          </div>
          <div class="col-md-4">
             <h4>Hemat Energi</h4>
-            <p>Dengan teknologi terkini, produk kami membantu mengurangi konsumsi energi.</p>
+            <p>Dengan teknologi terbaru, produk kami membantu mengurangi konsumsi energi.</p>
          </div>
          <div class="col-md-4">
             <h4>Berkualitas Tinggi</h4>
-            <p>Setiap produk telah melalui serangkaian uji kualitas untuk memastikan daya tahan dan efektivitasnya.</p>
+            <p>Setiap produk telah melalui uji kualitas untuk memastikan ketahanan dan efektivitasnya.</p>
          </div>
       </div>
    </section>
-  
+
+   <section class="container my-5 testimonial-section">
+      <h2 class="text-center mb-4">Testimoni Pelanggan</h2>
+      <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+         <div class="carousel-inner">
+            <div class="carousel-item active">
+               <div class="card p-4 shadow text-center">
+                  <p>"Aku sangat suka dengan produk dari Eco Green iniiiii!"</p>
+                  <h5>- Alip Aditya</h5>
+               </div>
+            </div>
+            <div class="carousel-item">
+               <div class="card p-4 shadow text-center">
+                  <p>"menurutku ya sebagai pengguna beberapa bulan ini, sangat puas pokoknya!"</p>
+                  <h5>-Ernest tobing</h5>
+               </div>
+            </div>
+            <div class="carousel-item">
+               <div class="card p-4 shadow text-center">
+                  <p>"sangat sangat suka sama berbagai produk dari Eco Green, cocok untuk aku"</p>
+                  <h5>- naizul fahmi</h5>
+               </div>
+            </div>
+            <div class="carousel-item">
+               <div class="card p-4 shadow text-center">
+                  <p>"Sangat cocok untuk aku sendiri yang suka shopping shopping!"</p>
+                  <h5>- richard nael</h5>
+               </div>
+            </div>
+            <div class="carousel-item">
+               <div class="card p-4 shadow text-center">
+                  <p>"wahhh sangat sangat membantu aku banget sih Eco Green ini!"</p>
+                  <h5>- leo marco</h5>
+               </div>
+            </div>
+         </div>
+         <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+         </button>
+         <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+         </button>
+      </div>
+   </section>
+
    <section class="container my-5">
       <h2 class="text-center mb-4">FAQ</h2>
       <div class="accordion" id="faqAccordion">
@@ -140,7 +188,7 @@
                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">Bagaimana cara membeli produk?</button>
             </h2>
             <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-               <div class="accordion-body">Produk kami dapat dibeli melalui situs resmi dan platform marketplace.</div>
+               <div class="accordion-body">Produk kami dapat dibeli melalui website resmi dan marketplace.</div>
             </div>
          </div>
       </div>
@@ -148,10 +196,10 @@
 
    <footer class="bg-dark text-white text-center py-4">
       <div class="container">
-         <p class="mb-1">&copy; 2025 Eco Green. Semua Hak Dilindungi.</p>
+         <p class="mb-1">&copy; 2025 Eco Green. All Rights Reserved.</p>
          <p class="mb-1">Alamat: Jl. Bunga Cempaka no.9 padang bulan, Medan</p>
-         <p class="mb-1">Email: <a href="mailto:info@ecogreen.com" class="text-white">info@ecogreen.com</a></p>
-         <p>Hubungi kami segera....
+         <p class="mb-1">Email: <a href="ablesitinjak@ecogreen.com" class="text-white">info@ecogreen.com</a></p>
+         <p>hubungi segera....
             <br>082149333180
          </p>
       </div>
