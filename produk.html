@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produk Eco Green</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <style>
+      .card {
+          display: flex;
+          flex-direction: column;
+          height: 100%;
+      }
+
+      .card-img-top {
+          width: 100%;
+          min-height: 200px;
+          max-height: 250px;
+          object-fit: contain;
+          transition: transform 0.3s ease-in-out;
+      }
+
+      .card:hover .card-img-top {
+          transform: scale(1.08);
+      }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+        <div class="container">
+            <a class="navbar-brand" href="#">Eco Green</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Beranda</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="#">Produk</a></li>
+                    <li class="nav-item"><a class="nav-link" href="login.html">Masuk</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container my-5">
+        <h2 class="text-center mb-4">Koleksi Produk Kami</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card shadow-sm">
+                    <img src="asset/tasRamah.jpg" class="card-img-top" alt="Tas Ramah Lingkungan">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Tas Ramah Lingkungan</h5>
+                        <p class="card-text">Tas yang terbuat dari bahan daur ulang dan ramah lingkungan.</p>
+                        <h5 class="text-success">Rp 50.000</h5>
+                        <button class="btn btn-success w-100">Beli Sekarang</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card shadow-sm">
+                    <img src="asset/botolmnum.jpg" class="card-img-top" alt="Botol Minum">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Botol Minum</h5>
+                        <p class="card-text">Botol minum yang tahan lama dan dapat digunakan berulang kali.</p>
+                        <h5 class="text-success">Rp 35.000</h5>
+                        <button class="btn btn-success w-100">Beli Sekarang</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card shadow-sm">
+                    <img src="asset/sikatgigi.jpg" class="card-img-top" alt="Sikat Gigi Bambu">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Sikat Gigi Bambu</h5>
+                        <p class="card-text">Sikat gigi yang terbuat dari bambu dan dapat terurai secara alami.</p>
+                        <h5 class="text-success">Rp 20.000</h5>
+                        <button class="btn btn-success w-100">Beli Sekarang</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-success text-white text-center py-3">
+        <p>&copy; 2025 Eco Green | Hubungi kami: info@ecogreen.com</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
